@@ -1,6 +1,0 @@
-name: Deploy Serverless Backend (Dev)
-
-on:
-  push:
-    branches:
-      - develop
