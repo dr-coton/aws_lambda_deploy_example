@@ -1,4 +1,4 @@
-name: [배포] AWS Lambda Deploy Example
+name: 배포 - AWS Lambda Deploy Example
 
 on:
   push:
