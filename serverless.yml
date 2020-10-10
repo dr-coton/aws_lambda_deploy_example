@@ -1,5 +1,5 @@
 service:
-  name: aws_lambda_deploy_example
+  name: aws-lambda-deploy-example
 
 # 서버리스 관련 플러그인
 plugins:
