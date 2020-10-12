@@ -5,7 +5,7 @@ service:
 plugins:
   - serverless-webpack
   - serverless-offline
-  - serverless-domain-manager
+  # - serverless-domain-manager
 
 provider:
   name: aws
@@ -39,10 +39,10 @@ functions:
 custom:
   webpack:
     includeModules: true
-  customDomain:
-    domainName: 'test.beanstudio.net'
-    certificateName: '*.beanstudio.net'
-    basePath: ''
-    createRoute53Record: true
-    endpointType: edge
-    securityPolicy: tls_1_2
+  # customDomain:
+  #   domainName: 'test.beanstudio.net'
+  #   certificateName: '*.beanstudio.net'
+  #   basePath: ''
+  #   createRoute53Record: true
+  #   endpointType: edge
+  #   securityPolicy: tls_1_2
