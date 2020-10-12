@@ -39,10 +39,8 @@ functions:
 custom:
   webpack:
     includeModules: true
-
   customDomain:
-    domainName: test.beanstudio.net
-    stage: ci
+    domainName: 'test.beanstudio.net'
     basePath: api
     certificateName: '*.beanstudio.net'
     createRoute53Record: true
