@@ -41,10 +41,8 @@ custom:
     includeModules: true
   customDomain:
     domainName: 'test.beanstudio.net'
-    basePath: ''
     certificateName: '*.beanstudio.net'
+    basePath: ''
     createRoute53Record: true
-    endpointType: 'regional'
+    endpointType: edge
     securityPolicy: tls_1_2
-    apiType: rest
-    autoDomain: false

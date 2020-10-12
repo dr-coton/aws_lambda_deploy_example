@@ -38,6 +38,6 @@
         "deploy:production": "serverless deploy --stage production"
     },
     "devDependencies": {
-        "serverless-domain-manager": "^5.0.0"
+        "serverless-domain-manager": "2.6.13"
     }
 }
