@@ -19,5 +19,22 @@ yarn dev
 yarn offline 
 ```
 
+### Custom 도메인 
+
+#### 도메인 생성 
+```bash
+serverless create_domain
+```
+
+#### 배포 
+```bash
+serverless deploy
+```
+
+#### 도메인 삭제 
+```bash 
+serverless delete_domain
+```
+
 ## Reference 
 
