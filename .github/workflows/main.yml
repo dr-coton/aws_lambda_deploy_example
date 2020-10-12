@@ -31,7 +31,7 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
-    - name: serverless deploy
+    - name: serverless deploy SLS_DEBUG=*
       uses: serverless/github-action@master
       with:
         args: deploy
