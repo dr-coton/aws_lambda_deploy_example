@@ -42,8 +42,7 @@ custom:
 
   customDomain:
     domainName: test.beanstudio.net
-    stage: ci
-    basePath: api
+    basePath: ''
     certificateName: '*.beanstudio.net'
     createRoute53Record: true
     endpointType: 'regional'
